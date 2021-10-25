@@ -1,3 +1,12 @@
+H1{
+    text-align: center;
+    border: 5px solid black;
+}
+
+body{
+    font-size: 20px;
+}
+
 p.a{
     border-width: 20px;
     border-color: red;
@@ -9,5 +18,32 @@ p.b{
     
     border-top: 5px dashed blue;
     border-bottom: 20px dashed blue;
-    border-left: 40px green;
+    border-left: 40px solid green;
+    border-right: 10px dashed green;
 }
+
+p.c{
+    border: 20px double yellow;
+    border-left-width: 5px;
+    border-right-width: 5px;
+}
+
+p.d{
+    border-top: 10px solid green;
+    border-bottom: 10px solid blue;
+}
+
+p.e{
+    border-top: 40px dashed red;
+    border-bottom: 40px dotted black;
+    border-left: 40px solid black;
+    border-right: 40px solid black;
+}
+
+p.f{
+    border-top: 5px dotted black;
+    border-bottom: 10px dashed black;
+    border-right: 20px solid black;
+    border-left: 20px double red;
+}
+
