@@ -1,0 +1,28 @@
+.par{
+    background-color: white;
+}
+.impar{
+    background-color: hsl(325, 100%, 90%);
+}                                     
+
+body {
+  background-color: hsl(35, 100%, 88%);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: hsl(35, 100%, 30%);
+  text-transform: uppercase;
+}
+h2{
+    color: hsl(35, 100%, 50%);
+}
+
+p {
+  font-size: 2rem;
+}
+
+
+summary {
+  font-size: 4rem;
+}

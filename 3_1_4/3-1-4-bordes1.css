@@ -1,0 +1,13 @@
+p.a{
+    border-width: 20px;
+    border-color: red;
+    border-top-style: double;
+    border-left-style: double;
+}
+
+p.b{
+    
+    border-top: 5px dashed blue;
+    border-bottom: 20px dashed blue;
+    border-left: 40px green;
+}

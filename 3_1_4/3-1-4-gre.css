@@ -1,0 +1,16 @@
+body{
+    background-color: seagreen;
+}
+.parr{
+    color: white;
+    font-style: italic; 
+}
+.esc{
+    color: rgb(255, 227, 185);
+}
+h3{
+    color: rgba(255, 217, 0, 0.788);
+}
+.rojo{
+    color: red;
+}
