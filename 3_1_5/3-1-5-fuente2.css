@@ -1,0 +1,45 @@
+
+@import url("https://fonts.google.com/specimen/Ribeye+Marrow#standard-styles");
+
+@import url("https://fonts.google.com/specimen/Just+Another+Hand");
+
+@import url("https://fonts.google.com/specimen/Lobster#standard-styles");
+
+body {
+  background-color: hsl(45, 55%, 55%);
+}
+
+h1 {
+  font-family: "Ribeye Marrow";
+  font-size: 50px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.intro {
+    margin-left: 29%;
+    margin-right: 29%;
+    font-family: sans-serif;
+    line-height: 200%;
+    text-align: justify;
+}
+
+p.latin {
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-size: 2.5rem;
+}
+
+p.espa {
+    font-family: "Just Another Hand";
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    letter-spacing: 1px;
+    margin: 0 0 3rem;
+}
+
+cite {
+  text-decoration: underline;
+}
