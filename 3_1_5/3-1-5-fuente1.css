@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url("RibeyeMarrow-Regular.ttf");
+}
+
+@font-face {
+font-family: "Just Another Hand";
+src: url("JustAnotherHand-Regular.ttf");
+}
+
+@font-face {
+font-family: "Losbter";
+src: url("Lobster-Regular.ttf");
+}
+
+body{
+    background-color: hsl(45, 55%, 55%);
+}
+
+h1{
+    font-family: "Ribeye Marrow";
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.latin{
+    font-family: "Losbter";
+    font-size: 50px;
+}
+
+p.espa{
+    font-family: "Just Another Hand";
+    font-size: 50px;
+    color: white;
+text-align: right;
+}
