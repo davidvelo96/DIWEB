@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(250, 236, 219);
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    text-align: center;
+}
+q{
+    font-style: italic;
+}
+p.centrado{
+    text-align: center;
+}
+hr{
+    margin-left:17% ;
+    margin-right:17% ;
+    border: 2px solid black;
+}
+pre{
+    background-color: rgba(207, 224, 231, 0.815);
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    white-space: pre-wrap;
+    font-size: 26px;
+}
+img{
+    vertical-align: middle;
+}
+img.izquierda{
+    float: left;
+}
+address{
+    border-top: 3px solid black;
+    padding-top: 2%;
+}
