@@ -1,0 +1,38 @@
+body{
+    background-image: url("img/violeta.png");
+}
+h1{
+    text-align: center;
+}
+div{
+    margin: -1% 10% 0% 10%;
+    background-color: rgb(82, 198, 252);
+}
+div.inicio{
+    font-size: 20px;
+    float: left;
+    margin: 0%;
+    background-color: white;
+}
+div.inicio img{
+    margin: 1% 1% 1% 1%;
+    float: left;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid black;
+
+}
+div.verde{
+    width: 20%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    /* float: left; */
+    background-image: url("img/verde.png");
+
+}
+div.naranja{
+    width: 20%;
+padding-bottom: 5%;
+    font-size: 20px;
+    /* float: left; */
+    background-color: orange;
+}
