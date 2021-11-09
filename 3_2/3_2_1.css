@@ -1,0 +1,82 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center; 
+}
+
+a{
+    color: #010101;
+    text-decoration: none;
+    padding-left: 22px;
+    font-size: 110%;
+    font-weight: bold;
+}
+.navegacion:nth-child(2)::before{
+    content:"";
+    display: block;
+    background-image: url("add.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion:nth-child(3)::before{
+    content:"";
+    display: block;
+    background-image: url("carrito.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion:nth-child(4)::before{
+    content:"";
+    display: block;
+    background-image: url("estrella.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion:nth-child(5)::before{
+    content:"";
+    display: block;
+    background-image: url("pdf.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion:nth-child(6)::before{
+    content:"";
+    display: block;
+    background-image: url("panorama.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion:nth-child(7)::before{
+    content:"";
+    display: block;
+    background-image: url("escudo.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.navegacion{
+    width: 32%;
+    height: 250px;
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
