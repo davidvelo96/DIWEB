@@ -1,0 +1,135 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.caja1{
+  background: red;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.caja1:hover{
+  background-color: green;
+  cursor: pointer;
+}
+
+.caja2{
+  background: rgb(201, 14, 201);
+  -webkit-transition: font-size 2s ease-out;
+  -moz-transition: font-size 2s ease-out;
+  -o-transition: font-size 2s ease-out;
+  transition: font-size 2s ease-out;
+}
+.caja2:hover{
+font-size: 30px;  
+cursor: pointer;
+}
+
+.caja3{
+  background: rgb(45, 62, 255);
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+.caja3:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.caja4{
+  background: rgb(102, 115, 255);
+  -webkit-transition: Line-height 2s ease-out;
+  -moz-transition: Line-height 2s ease-out;
+  -o-transition: Line-height 2s ease-out;
+  transition: Line-height 2s ease-out;
+}
+.caja4:hover{
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.caja:nth-child(5){
+  background: rgb(2, 220, 180);
+  -webkit-transition: border-radius 2s ease-out;
+  -moz-transition: border-radius 2s ease-out;
+  -o-transition: border-radius 2s ease-out;
+  transition: border-radius 2s ease-out;
+}
+.caja:nth-child(5):hover{
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.caja:nth-child(6){
+  background: rgb(226, 203, 26);
+  -webkit-transition: box-shadow 2s ease-out;
+  -moz-transition: box-shadow 2s ease-out;
+  -o-transition: box-shadow 2s ease-out;
+  transition: box-shadow 2s ease-out;
+}
+.caja:nth-child(6):hover{
+  box-shadow: 10px 10px 0 #515151;
+  cursor: pointer;
+}
+
+.caja:nth-child(7){
+  background: rgb(2, 220, 180);
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+.caja:nth-child(7):hover{
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.caja:nth-child(8){
+  background: rgb(105, 105, 105);
+  -webkit-transition: border 2s ease-out;
+  -moz-transition: border 2s ease-out;
+  -o-transition: border 2s ease-out;
+  transition: border 2s ease-out;
+}
+.caja:nth-child(8):hover{
+  border: 5px solid rgb(44, 171, 44);
+  cursor: pointer;
+}
+
+.caja:nth-child(9){
+  background: rgb(22, 31, 126);
+  -webkit-transition: margin 2s ease-out;
+  -moz-transition: margin 2s ease-out;
+  -o-transition: margin 2s ease-out;
+  transition: margin 2s ease-out;
+}
+.caja:nth-child(9):hover{
+  margin: 4%;
+  cursor: pointer;
+}
+
+.caja:nth-child(10){
+  background: rgb(0, 0, 0);
+  -webkit-transition: padding 2s ease-out;
+  -moz-transition: padding 2s ease-out;
+  -o-transition: padding 2s ease-out;
+  transition: padding 2s ease-out;
+}
+.caja:nth-child(10):hover{
+  padding: 2%;
+  cursor: pointer;
+}
