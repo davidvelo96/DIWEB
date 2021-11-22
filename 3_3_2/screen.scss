@@ -4,3 +4,31 @@ $color-fondo:#666;
 $color-fondo-sobre:#888;
 
 
+@mixin colorFondoyTexto() {
+    background-color: $color-texto;
+    color: $color-fondo;
+}
+
+@mixin colorhover(){
+    background-color: $color-texto-hover;
+    color: $color-fondo-sobre;
+}
+
+@mixin boxsizing($param){
+    box-sizing: $param;
+}
+
+@mixin transicion($proper,$dura,$timing:linear){
+    transition-property: $proper;
+    transition-duration: $dura;
+    transition-timing-function:$timing;
+}
+
+@mixin animaciones($name,$dura,$timing:linear){
+    animation-name: $name;
+    animation-duration: $dura;
+    animation-timing-function:$timing;
+}
+
+@import "_menu.scss"
+
