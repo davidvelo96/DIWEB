@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Pequeños reseteos */
+h1,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+body {
+  background-color: white;
+}
+
+/* Para cambir el color de leta de ciertos elementos */
+.verde {
+  color: #0c9b3b;
+}
+
+/* Contenedor general*/
+.container {
+  font-family: "Righteous", cursive;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* Parte del logo y menú */
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: none;
+}
+
+.menu_item {
+  padding: 0.1em;
+  /*display: none;*/
+  font-size: 0.75em;
+}
+
+/*Estilos parte principal*/
+main {
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  width: 100%;
+}
+
+section.main_text {
+  color: white;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+section.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.images img {
+  height: 100px;
+  width: 25%;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Para el caso de pantalla menor a 576px */
+
+@media only screen and (max-width: 576px) {
+ 
+  .hidden {
+    display: none;
+  }
+  section.images {
+    display: flex;
+  }
+
+  section.images img {
+    /* display: flex; */
+    flex-flow: column;
+    height: 75px;
+    width: 25%;
+    /* float: left; */
+  }
+}
+
+/* Para el caso de pantalla superior a 992px */
+
+@media only screen and (min-width: 992px) {
+   article{
+    width:30%;
+    float:right;
+  }
+  section.images {
+    display: flex;
+    float: left;
+    width: 50%;
+    order: 0;
+  }
+
+  section.images img {
+    display: flex;
+    flex-flow: row;
+    width: 50%;  
+    float: left;
+}
+  section.main_text {
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+    padding: 0.5em;
+    width: 50%;
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  article{
+    width:30%;
+    float:right;
+  }
+  section.images {
+    display: flex;
+    float: left;
+    width: 50%;
+
+  }
+
+  section.images img {
+    /* display: flex; */
+    flex-flow: row;
+    width: 50%;  
+    float: left;
+}
+  section.main_text {
+    color: white;
+    /* font-weight: bolder; */
+    font-size: small;
+    padding: 0.5em;
+    width: 50%;
+    float: left;
+  }
+}
