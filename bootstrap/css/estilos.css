@@ -1,0 +1,51 @@
+div {
+    border: 2px solid white;
+    
+}
+#verde1, #verde2{
+    background: greenyellow;
+    height: 80px;
+    text-align: center;
+    font-style: italic;
+    line-height: 80px;
+}
+
+.azul{
+    background: #87aade;
+    height: 150px;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+}
+
+.letras{
+    background: #cccccc;
+    height: 150px;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+}
+
+.dispositivos{
+    background: aqua;
+    height: 60px;
+    text-align: center;
+    font-style: italic;
+    line-height: 60px;
+}
+
+.caras{
+    background: orange;
+    height: 80px;
+    text-align: center;
+    font-style: italic;
+    line-height: 80px;
+}
+
+#verde2{
+    height: 60px;
+    line-height: 60px;
+}
+
+
+/* Estilos CSS personales */
