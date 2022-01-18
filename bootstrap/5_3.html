@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Blank App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .heade {
+            background: rgb(18, 255, 18);
+            padding: 30px;
+            /* border: 1px solid grey; */
+        }
+
+        .azul {
+            background: blue;
+            padding: 30px;
+            /* border: 1px solid grey; */
+        }
+
+        .bloc1,
+        .bloc2,
+        .bloc3 {
+            background: red;
+            text-align: center;
+            height: 500px;
+            font-size: 100px;
+            /* width: 30%; */
+            /* margin-right: 3.3%; */
+            /* border: 1px solid grey; */
+        }
+
+        .rosa {
+            background: pink;
+            padding: 30px;
+            /* border: 1px solid grey; */
+        }
+
+        .amarillo {
+            background: yellow;
+            padding: 30px;
+            height: 100px;
+            /* border: 1px solid grey; */
+        }
+
+        div {
+            border: 5px solid white;
+        }
+
+        .bla {
+            border: 2px solid black;
+        }
+
+
+        @media (max-width: 1152px) {
+            .heade {
+                background-color: aqua;
+            }
+
+            .amarillo {
+                text-align: center;
+            }
+
+            .bloc1 {
+                text-align: left;
+                height: 300px;
+                line-height: 300px;
+
+            }
+
+            .bloc2 {
+                text-align: right;
+                height: 300px;
+                line-height: 300px;
+
+            }
+
+            .bloc3 {
+                background-color: green;
+                height: 150px;
+            }
+        }
+
+        @media (max-width: 878px) {
+            .heade {
+                background-color: rgb(247, 177, 102);
+            }
+
+            .heade {
+                text-align: center;
+            }
+
+            .bloc2 {
+                background-color: aqua;
+                text-align: center;
+                height: 150px;
+                line-height: 150px;
+
+            }
+
+            .bloc3 {
+                background-color: red;
+                height: 150px;
+                text-align: right;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="bla col-md-12 col-xs-12 h1 heade">Header</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="col-md-12 col-lg-12 bla bloc1">
+                    1
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="col-md-12 col-lg-12 bla bloc2">
+                    2
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="col-md-12 col-lg-12 bla bloc3">
+                    3
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 bla amarillo text-right">Footer 1</div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 bla amarillo text-left">Footer 2</div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
