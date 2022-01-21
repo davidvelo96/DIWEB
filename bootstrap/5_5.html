@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Blank App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="width: 40%; margin: auto; margin-top: 10%;" >
+        <h1>Formulario de registro</h1>
+
+        <div style="width: 100%; margin: auto; border: 1px solid blue;">
+            <form>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Usuario:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Usuario" size="10px">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña:</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0">Sexo:</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="hombre"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Hombre
+                                </label>
+                                <input class="form-check-input" type="radio" name="gridRadios" id="mujer"
+                                    value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Mujer
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
